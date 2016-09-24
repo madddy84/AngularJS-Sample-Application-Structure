@@ -9,4 +9,4 @@ In conventional software development we have been seen most of the project are d
 But then we are working with large application it is very dificult to navigate within between files as not all files are visible in one glance or atleast with liitle effort it can be found.
 
 
-On the other hand if we could group the files based on feature (business feature) and not techinilogy or techinical architecture
+On the other hand if we could group the files based on feature (business feature) and not techinilogy or techinical architecture, it is easier to work on the feature, as all the related files reside in a single place.
