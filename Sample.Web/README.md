@@ -1,4 +1,4 @@
-Root Structure
+# Root Structure
 
 This is the root of the project, most of the project configurations reside at this level. Some of the configurations are
 - gulp.config.js
