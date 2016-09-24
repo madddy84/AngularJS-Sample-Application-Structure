@@ -1,0 +1,39 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "3a86e056dc018541d82dd74639fca18ba8d605da"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "3a86e056dc018541d82dd74639fca18ba8d605da"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "e69fe60f2d6377ea4fae539493997b098f52cad1"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "4ec3c5bf291bc02f49eb30c1077340b235165c67"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "b57c33fec0be3cba8f5e9cec642db873565923d0"
+    },
+    "ui-grid/ui-grid.d.ts": {
+      "commit": "3a86e056dc018541d82dd74639fca18ba8d605da"
+    },
+    "jstree/jstree.d.ts": {
+      "commit": "8886ae591751e8a8237fa855617745768f0b1bdf"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "cd94d1e2dd95797ebfbdab1d0e8e4a419d5cfc92"
+    },
+    "moment/moment.d.ts": {
+      "commit": "cd94d1e2dd95797ebfbdab1d0e8e4a419d5cfc92"
+    },
+    "underscore/underscore.d.ts": {
+      "commit": "611669c15328d2356355e0cec6cc15df2abe42d6"
+    }
+  }
+}

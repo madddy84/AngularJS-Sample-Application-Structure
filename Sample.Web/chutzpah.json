@@ -1,0 +1,53 @@
+﻿{
+    "Compile": {
+        "Extensions": [ ".ts" ],
+        "ExtensionsWithNoOutput": [ ".d.ts" ],
+        "Executable": "compile.bat"
+    },
+    "References": [
+        { "Include": "*/cdn/vendors/jquery.js" },
+        { "Include": "*/cdn/vendors/angular.js" },
+        { "Include": "*/cdn/vendors/angular-resource.js" },
+        { "Include": "*/cdn/vendors/angular-cookies.js" },
+        { "Include": "*/cdn/vendors/tmhDynamicLocale.js" },
+        { "Include": "*/cdn/vendors/angular-ui-router.js" },
+        { "Include": "*/bower_components/angular-mocks/angular-mocks.js" },
+        { "Include": "*/cdn/build/common-resources.build.js" },
+        { "Include": "*/cdn/build/administrative-tools-resources.build.js" },
+        { "Include": "*/cdn/build/advanced-reporting-resources.build.js" },
+        { "Include": "*/cdn/build/common.build.js" },
+        { "Include": "*/cdn/build/administrative-tools.build.js" },
+        { "Include": "*/cdn/build/advanced-reporting.build.js" },
+        { "Include": "*/cdn/build/templateCache.js" },
+        { "Include": "*/cdn/vendors/ui-grid.js" },
+        { "Include": "*/cdn/output/externalLibs/collections.js" },
+        { "Include": "*/cdn/vendors/ng-lodash.js" },
+        { "Include": "*/cdn/vendors/bootstrap.min.js" },
+        { "Include": "*/cdn/vendors/angular-sanitize.js" },
+        { "Include": "*/cdn/vendors/ui-bootstrap-tpls.js" },
+        { "Include": "*/cdn/vendors/ui-layout.js" },
+        { "Include": "*/cdn/vendors/jstree.js" },
+        { "Include": "*/cdn/vendors/ngJsTree.js" },
+        { "Include": "*/cdn/vendors/underscore.js" },
+        { "Include": "*/cdn/vendors/select.js" },
+        { "Include": "*/cdn/vendors/moment.js" },
+        { "Include": "*/cdn/vendors/angular-moment.js" },
+        { "Include": "*/bower_components/jasmine-ajax/lib/mock-ajax.js" }
+    ],
+    "Tests": [
+        {
+            "Include": "*/app/application1/features/sampleFeature1/sampleFeature1.controller.test.ts",
+            "Exclude": "*/app/application1/features/sampleFeature1/sampleFeature1.controller.test.d.ts"
+        }
+    ],
+    "TestFileTimeout": 200000,
+    "CodeCoverageIncludes": [
+        "*/cdn/build/common.build.js",
+        "*/cdn/build/application1.build.js",
+    ],
+    "CodeCoverageExcludes": [
+        "*/cdn/build/common-resources.build.js",
+        "*/cdn/build/application1.build.js"
+    ],
+    "CodeCoverageSuccessPercentage": 85
+}
